@@ -4,19 +4,20 @@ import styled from "styled-components";
 
 const Wrapper = styled.header`
   height: 60px;
-  background-color: red;
   display: flex;
 `;
 
 const Left = styled.div`
   flex: 3;
-  background: blue;
+  font-family: "Bebas";
+  font-size: 60px;
+  font-weight: bold;
+  padding-left: 20px;
 `;
 
 const Right = styled.div`
   flex: 6;
-  background: green;
-  padding-right: 30px;
+  padding-right: 20px;
 `;
 
 const Nav = styled.nav`
@@ -35,8 +36,12 @@ const NavListItem = styled.li`
 `;
 
 const StyledLink = styled(Link)`
-  padding: 10px 20px;
+  padding: 10px;
   text-decoration: none;
+  font-family: "Bebas";
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
   &:hover {
     text-decoration: underline;
   }
@@ -47,7 +52,7 @@ const StyledLink = styled(Link)`
 
 const Header = () => (
   <Wrapper>
-    <Left>Logo</Left>
+    <Left>JIMGBESTPHOTOGRAPHY</Left>
     <Right>
       <Nav>
         <NavList>

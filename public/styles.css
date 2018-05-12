@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Bebas";
+  src: local("Bebas"), url("./fonts/bebas/bebas.woff") format("woff");
+}
+
+body {
+  font-family: "Bebas";
+}
